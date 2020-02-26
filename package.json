@@ -1,0 +1,25 @@
+{
+  "name": "@judosecurity/judo-node-client",
+  "version": "0.1.7",
+  "description": "",
+  "main": "judo.js",
+  "bin": {
+    "judo": "./judo.js"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "2.6.0",
+    "shamirs-secret-sharing": "^1.0.1",
+    "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
