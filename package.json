@@ -1,7 +1,7 @@
 {
   "name": "@judosecurity/judo-node-client",
   "version": "0.1.7",
-  "description": "",
+  "description": "Node CLI client for Judo Security",
   "main": "judo.js",
   "bin": {
     "judo": "./judo.js"
@@ -9,6 +9,14 @@
   "scripts": {
     "test": "mocha tests"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Judo-Security/Judo-Node-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Judo-Security/Judo-Node-CLI/issues"
+  },
+  "homepage": "https://github.com/Judo-Security/Judo-Node-CLI#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {
